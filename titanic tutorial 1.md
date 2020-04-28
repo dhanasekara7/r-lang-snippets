@@ -1,3 +1,4 @@
+```r
 train.data <- read.csv("./ws/r-lang-ws/titanic_data/train.csv", header = TRUE)
 test.data <- read.csv("./ws/r-lang-ws/titanic_data/train.csv", header = TRUE)
 
@@ -25,4 +26,4 @@ ggplot2(train.data, aes(x=Pclass, y=Survived)) +
     xlab("Pclass") +
     ylab("Survived") +
     labs("fill=Survived")
-
+```
